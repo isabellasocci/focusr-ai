@@ -1,20 +1,16 @@
-import React, { useState } from "react";
-import UploadAudio from "./components/UploadAudio";
-import EngagementChart from "./components/EngagementChart";
-import Summary from "./components/Summary";
-import "./App.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Upload from "./pages/Upload";
 
 function App() {
-    const [transcript, setTranscript] = useState("");
-    const [timestamps, setTimestamps] = useState([]);
-
     return (
-        <div className="App">
-            <h1>focusr.ai</h1>
-            <UploadAudio setTranscript={setTranscript} />
-            <EngagementChart timestamps={timestamps} />
-            <Summary transcript={transcript} timestamps={timestamps} />
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/upload" element={<Upload />} />
+            </Routes>
+        </Router>
     );
 }
 
