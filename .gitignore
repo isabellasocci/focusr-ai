@@ -172,3 +172,6 @@ cython_debug/
 
 # config file with api keys
 config.py
+
+# dependencies folder
+node_modules/
