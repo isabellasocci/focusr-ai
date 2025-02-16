@@ -21,7 +21,7 @@ function UploadAudio({ setTranscript }) {
     return (
         <div>
             <h2>Upload Lecture Audio</h2>
-            <input type="file" accept="audio/*" onChange={(e) => setFile(e.target.files[0])} />
+            <input type="file" accept=".mp3, .mp4, .mov, audio/*" onChange={(e) => setFile(e.target.files[0])} />
             <button onClick={handleUpload}>Upload & Transcribe</button>
         </div>
     );

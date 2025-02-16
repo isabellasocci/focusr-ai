@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import UploadAudio from "../components/UploadAudio";
 import { Link } from "react-router-dom";
 import EngagementChart from "../components/EngagementChart";
 import Summary from "../components/Summary";
+import Summary2 from "../components/Summary2";
 import focusrLogo from "../assets/focusr-logo.png";
 
 function Upload() {
@@ -10,7 +12,7 @@ function Upload() {
 
     return (
         <div style={{ 
-            display: "flex", 
+            display: "flex",
             flexDirection: "column", 
             alignItems: "center", 
             justifyContent: "center", 
@@ -60,31 +62,21 @@ function Upload() {
                 </button>
             </Link>
 
-            <h1 style={{ fontSize: "4.2rem", fontWeight: "bold", marginTop: "100px", textShadow: "4px 4px 12px rgba(0, 116, 217, 0.7)" }}>Engagement Dashboard</h1>
-            
-            <div style={{ marginTop: "40px", width: "60%", textAlign: "center" }}>
-                <input 
-                    type="file" 
-                    style={{ 
-                        padding: "12px", 
-                        borderRadius: "15px", 
-                        backgroundColor: "#0074D9", 
-                        color: "white", 
-                        fontSize: "1rem", 
-                        cursor: "pointer", 
-                        border: "2px solid #0e1014"
-                    }}
-                />
-            </div>
-            
-            <div style={{ marginTop: "80px", width: "75%", display: "flex", justifyContent: "flex-start" }}>
-                <EngagementChart timestamps={timestamps} />
-                <div style={{ marginLeft: "100px" }}>
-                    <Summary transcript={transcript} timestamps={timestamps} />
+            <div style={{ display: "flex", alignItems: "center", width: "100%", paddingLeft: "35%", marginTop: "130px" }}>
+                <h1 style={{ fontSize: "4.2rem", fontWeight: "bold", textShadow: "2px 2px 6px rgba(0, 116, 217, 0.7)", textAlign: "left", whiteSpace: "pre-line" }}>
+                    Engagement<br/>Dashboard
+                </h1>
+                <div style={{ marginLeft: "200px", display: "flex", alignItems: "center", background: "#1a1d23", padding: "20px", borderRadius: "15px", boxShadow: "0px 0px 15px 4px rgba(0, 116, 217, 0.7)" }}>
+                    <UploadAudio setTranscript={setTranscript} acceptedFileTypes=".mp3,.mp4,.mov,audio/*" />
                 </div>
             </div>
-            
-            
+
+            <div style={{ marginTop: "80px", width: "75%", display: "flex", justifyContent: "center" }}>
+                <Summary transcript={transcript} timestamps={timestamps} />
+                <div style={{ marginLeft: "200px" }}>
+                    <Summary2 transcript={transcript} timestamps={timestamps} />
+                </div>
+            </div>
         </div>
     );
 }

@@ -17,8 +17,8 @@ function Summary({ transcript, timestamps }) {
 
     return (
         <div>
-            <h2>Timestamps of Disengagement</h2>
-            <p>{summary || "Upload an audio file to view."}</p>
+            <h2>AI-Generated Summary</h2>
+            <p>{summary || "Summary Generation Feature Coming Soon."}</p>
         </div>
     );
 }
