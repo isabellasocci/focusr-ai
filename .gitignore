@@ -171,7 +171,8 @@ cython_debug/
 .pypirc
 
 # config file with api keys
-# config.py
+config.py
+focusr-ai-key.json
 
 # dependencies folder
 node_modules/

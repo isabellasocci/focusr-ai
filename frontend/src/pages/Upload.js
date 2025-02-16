@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-import UploadAudio from "../components/UploadAudio";
+import UploadVideo from "../components/UploadVideo";
 import { Link } from "react-router-dom";
-import EngagementChart from "../components/EngagementChart";
-import Summary from "../components/Summary";
-import Summary2 from "../components/Summary2";
+import Timestamps from "../components/Timestamps";
+import Info from "../components/Info";
 import focusrLogo from "../assets/focusr-logo.png";
 
 function Upload() {
-    const [transcript, setTranscript] = useState("");
-    const [timestamps, setTimestamps] = useState([]);
+    const [disengagementPeriods, setDisengagementPeriods] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
 
     return (
         <div style={{ 
@@ -67,14 +66,14 @@ function Upload() {
                     Engagement<br/>Dashboard
                 </h1>
                 <div style={{ marginLeft: "200px", display: "flex", alignItems: "center", background: "#1a1d23", padding: "20px", borderRadius: "15px", boxShadow: "0px 0px 15px 4px rgba(0, 116, 217, 0.7)" }}>
-                    <UploadAudio setTranscript={setTranscript} acceptedFileTypes=".mp3,.mp4,.mov,audio/*" />
+                    <UploadVideo setDisengagementPeriods = {setDisengagementPeriods} setIsLoading = {setIsLoading} acceptedFileTypes=".mp3,.mp4,.mov,audio/*" />
                 </div>
             </div>
 
             <div style={{ marginTop: "80px", width: "75%", display: "flex", justifyContent: "center" }}>
-                <Summary transcript={transcript} timestamps={timestamps} />
+                <Timestamps disengagementPeriods={disengagementPeriods} isLoading={isLoading} />
                 <div style={{ marginLeft: "200px" }}>
-                    <Summary2 transcript={transcript} timestamps={timestamps} />
+                    <Info/>
                 </div>
             </div>
         </div>

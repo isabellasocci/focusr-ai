@@ -4,3 +4,8 @@ openai
 sounddevice
 wavio
 requests
+vertexai
+google-cloud-aiplatform
+tqdm
+google-oauth2-tool
+multiprocess

@@ -8,6 +8,8 @@ from multiprocessing import Pool, cpu_count, Manager
 import glob
 from tqdm import tqdm
 
+UPLOADS_FOLDER = os.path.join(os.path.dirname(os.path.dirname((__file__))), "uploads")
+
 # Authentication setup
 credentials = service_account.Credentials.from_service_account_file(
 'focusr-ai-key.json',
