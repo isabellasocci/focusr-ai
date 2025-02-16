@@ -128,7 +128,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+# .env
 .venv
 env/
 venv/
@@ -171,10 +171,12 @@ cython_debug/
 .pypirc
 
 # config file with api keys
-config.py
+# config.py
 
 # dependencies folder
 node_modules/
 
 uploads/*.mp4
 uploads/*.mov
+uploads/*.mp3
+uploads/*.wav
