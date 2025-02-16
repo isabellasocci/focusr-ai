@@ -63,7 +63,7 @@ function Home() {
                         fontSize: "4.2rem", 
                         textShadow: "4px 4px 12px rgba(0, 116, 217, 0.7)"
                     }}>
-                        <b>Humans aren't perfect, focusr is.</b>
+                        <b>People lose focus; we bring it back.</b>
                     </p>
                     <p style={{ fontSize: "1.2rem", marginTop: "10px" }}>
                         <b>Any mov, mp3, or mp4 video → Instant engagement report, tracking everything you missed.</b>
