@@ -1,4 +1,4 @@
-**focusr.ai** 
+## **focusr.ai** 
 humans lose focus; we bring it back
 
 ## **Overview**
