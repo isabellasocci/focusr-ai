@@ -1,13 +1,13 @@
-# **focusr.ai** 
-humans aren't perfect; we'll fill in the gaps
+**focusr.ai** 
+humans lose focus; we bring it back
 
 ## **Overview**
 focusr.ai is a **web app** designed to track student engagement during lectures. It allows students to **record or upload lecture videos**, analyzes their **engagement levels using eye-tracking software**, and generates **AI-enhanced lecture summaries** that emphasize sections where the student was distracted.
 
 ## **Features**
 - **Upload or Record Lecture Audio/Video**: Supports **MP4, WAV, M4A, and WebM** file formats.
-- **Eye Tracking for Engagement Analysis**: Uses **MediaPipe and OpenCV** to detect eye movement and identify disengagement.
-- **AI-Powered Summarization**: Integrates **OpenAI's Whisper** and **Sonar by Perplexity** to generate detailed lecture summaries.
+- **Eye Tracking for Engagement Analysis**: Uses **Google Gemini** to detect eye movement and identify disengagement.
+- **AI-Powered Summarization**: Integrates **OpenAI Whisper** and **Perplexity Sonar** to generate detailed lecture summaries.
 - **Visualized Engagement Data**: Provides an **interactive chart** displaying engagement trends over time.
 - **Web-Based Interface**: Built with **React & Flask** for seamless user experience.
 
@@ -22,13 +22,11 @@ focusr.ai is a **web app** designed to track student engagement during lectures.
 - Flask (REST API for file processing & AI interactions)
 - OpenAI Whisper (Audio transcription)
 - Perplexity - Sonar (lecture summarization)
-- MediaPipe (Eye tracking for engagement detection)
-- MoviePy (Extracting & processing audio from videos)
-- Pydub (Audio compression & conversion)
+- Gemini Vision (engagement detection)
 
 ### **Cloud & Storage**
 - Vercel (Frontend Deployment)
-- Render / Flask (Backend Hosting)
+- Flask (Backend Hosting)
 
 ## **Installation & Setup**
 ### **Clone our repo**
@@ -86,4 +84,4 @@ vercel
 - **Integration with Learning Management Systems (LMS)**
 - **Zoom app and API Integration for online classes**
 
-ʕ•ᴥ•ʔ
+Happy learning! ʕ•ᴥ•ʔ
