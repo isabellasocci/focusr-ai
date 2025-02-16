@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "focusr-ai",
+    "private_key_id": "8a883eba03af7905f787f53801af7b69340fcbb7",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDgHiZ5/XB0Q3v4\n0aN0ip3TO9dQfz+6WiDF+r0C7/1SQHYhlMoqgVclhAlJrEI5yl4N2bUawf393f1A\nlCaYejGmCEhnz/d3SShlNtfOtvKwODsPzStrJCRu5RiFLxMvzxWJSSt3ExnXc3KT\nwHHHDztjCOb+ISYczwUsxx36HMNa7lb0hnjMe4RQhc6ZbUI29gJrMvJT21b6U1jw\niOAkNuzNxBoq+ObaLk1XgkU6PrKbaFUErCGe0BsMKgh22LeorQwtAsXOxEe0Qhqs\nIbNsoqLwjlHEJu788Eia9h6Hkf54Fzy2yMjb0TMfUon6SQ4/stQ+54Diy9BFwCL6\nUNKiwdefAgMBAAECggEAA0oaPA9fyedryJr/kzV5DMkJVI85Go5fcy8KKc/YPDU0\npqseFKHs8rsLp/h9qw5cL5MXitf4QIr4Ex5BFTz2m4ffD/Rry/uuK21vBpLYUXXh\nWqFm2LZo04u9c11WIrpMiAFYXnlBgN9exVsMbLPMvLoPKh+o9ioNAGxWdXJrKK5W\nPaX22acuOotxLn/JwzL0PuwjrPCbxoZUShiF+05KcDbju3U+piUgUihOva8eWk6L\n5v6wEEeh9P9YhuZICm17AhwFY1ZfN2ozv6QHeWPgeeY6mwNJpT9QdcmKUJIX8eXR\nb7/L2GSwfpEsSqw4skgoVfDmhLKVlPzLbNaSlw4KzQKBgQD+CSYV/ECAc1j60egr\nKOSlSoX7zHQ8JV9E6kYy69w2EMv8oGXcRSZ83UO4CEE+whE+GCpm4xuiS0FN4VwH\n4dTruNB5W87LQg8y14m+qne1HPhFrJeHuuGb9D87RHnZVRnYtafvh/bL/x++B7bQ\n4ZqhCJ3l5O55Ew0H/86ExalxKwKBgQDh2cfHzfXN10RN8aPgagvoMYUQOqoFHzWA\n3O0P0H8SB4yGNnU0nzgckGa335BvsF3F/dwlQldk1kKlLkTqY3nGX749fznYbfhb\n5mfVQiYMg+jiiKpVvw7urE2cgrmzl7LyosCRg52Mz02YvdtmRgBFcI45hzn3xtpq\nRIDgCl+xXQKBgEqLJrjm14qZzm9zbvxTOJzkPGLCAQ2xLb6MPGMu4OSgkysjaiBz\nzjJvvzJegb7HtcWR08dzNyWtjZEr4xSRCSjOh6ZE8W6liM4zf0EKxqvHv3a6iZCT\nnyZjSra6hkLm/PmhfJEGRb5gs9DQdK3gtb4xSBwwzGWM2JMTVmeRlQIXAoGBAJkT\nJWAcDWTVaXs2sy7QUX+vyJNGX6QXEglkM9zLIMUUjr8MvAXNgJeDm8s2YMwCipw+\nQm6Sd29l9UfFg3olsAyvKd6+k3NIndOT535YVjeXVEnt/R0e4L0N1ZCl3b2GrQfd\nHY3C2g7tFpfW3pSED30BG7SMHdL9WV47TeoLve4VAoGAZ3asoHuMIpRQjsTVe2kr\nZ8RaldbdVAMWYKKBBOzJ5eDBLrsrgENMSZUl4hn1ePeYgiPsGEG4h/qq1t4USuE3\n7jet3wy/udKzwHRblXdsCqQy5zqmqlB7+lvMeiDiHVhBLeTDm0Dr/VibKuYMcqt+\nNKYW1JxrshyWAf5TVFP/Wtk=\n-----END PRIVATE KEY-----\n",
+    "client_email": "tyler-emanuel@focusr-ai.iam.gserviceaccount.com",
+    "client_id": "105090242329570940130",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tyler-emanuel%40focusr-ai.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
