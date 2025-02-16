@@ -1,7 +1,6 @@
 # backend/requirements.txt
 flask
-requests
-opencv-python
-mediapipe
+openai
 sounddevice
 wavio
+requests
