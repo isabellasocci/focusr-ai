@@ -80,7 +80,6 @@ def process_video(video_path):
     
     return results
 
-
 def find_no_strands(data, min_length=5):
     no_strands = []
     current_strand = []
